@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listado de equipos del establecimiento.">
+  <title>Equipos | Portal de Monitoreo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <span class="header-label">
+        MONITOREO
+      </span>
+    </div>
+  </header>
+  <main class="container equipment-page">
+    <section class="page-heading" aria-labelledby="titulo-equipos">
+      <a href="index.html" class="back-link">
+       Inicio
+      </a>
+      <h1 id="titulo-equipos">
+        Equipos
+      </h1>
+      <p class="subtitle">
+        Consulta el estado de los computadores.
+      </p>
+    </section>
+    <section class="equipment-section" aria-label="Listado de computadores">
+
+      <article class="equipment-card">
+        <div class="equipment-info">
+          <h2>
+            Laboratorio 01
+          </h2>
+          <span class="badge badge-working">
+            <span class="badge-dot"></span>
+            Funcionando
+          </span>
+        </div>
+        <a href="laboratorio-01.html" class="secondary-button">
+          Ver detalles
+        </a>
+      </article>
+
+      <article class="equipment-card">
+        <div class="equipment-info">
+          <h2>
+            Laboratorio 02
+          </h2>
+          <span class="badge badge-working">
+            <span class="badge-dot"></span>
+            Funcionando
+          </span>
+        </div>
+        <a href="laboratorio-02.html" class="secondary-button">
+          Ver detalles
+        </a>
+      </article>
+
+      <article class="equipment-card">
+        <div class="equipment-info">
+          <h2>
+            Laboratorio 03
+          </h2>
+          <span class="badge badge-review">
+            <span class="badge-dot"></span>
+            Revisar
+          </span>
+        </div>
+        <a href="laboratorio-03.html" class="secondary-button">
+          Ver detalles
+        </a>
+      </article>
+
+      <article class="equipment-card">
+        <div class="equipment-info">
+          <h2>
+            Laboratorio 04
+          </h2>
+          <span class="badge badge-problem">
+            <span class="badge-dot"></span>
+            Problema
+          </span>
+        </div>
+        <a href="laboratorio-04.html" class="secondary-button button-selected">
+          Ver detalles
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>
+        Portal de Monitoreo de Equipos
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
